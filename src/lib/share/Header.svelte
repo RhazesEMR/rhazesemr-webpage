@@ -7,11 +7,16 @@
   import Button from "$lib/components/ui/button/button.svelte";
 </script>
 
-<header class="fixed top-0 flex justify-between items-center p-3 w-full bg-background border-b">
+<header class="fixed top-0 flex justify-between items-center p-3 w-full bg-background border-b mb-32">
   <div class="flex items-center gap-4">
     <button on:click={() => goto("/#")}>
-      <h1 class="text-xl">
+      <h1 class="text-xl font-bold">
         <i class="fa-solid fa-flask"></i> RhazesEMR
+      </h1>
+    </button>
+    <button on:click={() => goto("/download")}>
+      <h1 class="text-lg">
+        Download
       </h1>
     </button>
     <button on:click={() => window.location.href = "https://docs.rhazesemr.info"}>

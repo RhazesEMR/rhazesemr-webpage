@@ -9,7 +9,11 @@
   import Header from "$lib/share/Header.svelte";
   import Footer from "$lib/share/Footer.svelte";
 
-  let loading = true;
+  import { Toaster } from "$lib/components/ui/sonner";
+
+  let loading = $state(true);
+
+  let { children } = $props();
 
   onMount(() => {
     setTimeout(() => (loading = false), 1000);
@@ -17,6 +21,7 @@
 </script>
 
 <ModeWatcher />
+<Toaster />
 <main class="flex flex-col min-h-screen">
   {#if loading}
     <div
@@ -24,7 +29,7 @@
     ></div>
   {:else}
     <Header />
-    <slot></slot>
+    {@render children?.()}
     <Footer />
   {/if}
 </main>
