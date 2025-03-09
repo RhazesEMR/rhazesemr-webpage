@@ -10,26 +10,27 @@
 <header
   class="fixed top-0 flex justify-between items-center p-3 w-full bg-background border-b mb-32"
 >
-  <div class="flex items-center gap-4">
+  <div class="flex items-center">
     <button on:click={() => goto("/#")}>
-      <h1 class="text-xl font-bold">
+      <h1 class="text-2xl font-bold mr-5">
         <i class="fa-solid fa-flask"></i> RhazesEMR
       </h1>
     </button>
-    <button
-      on:click={() => (window.location.href = "https://docs.rhazesemr.info")}
+    <Button
+      onclick={() => (window.location.href = "https://docs.rhazesemr.info")}
+      variant="ghost"
     >
       <h1 class="text-lg">Docs</h1>
-    </button>
-    <button on:click={() => goto("/download")}>
+    </Button>
+    <Button onclick={() => goto("/download")} variant="ghost">
       <h1 class="text-lg">Download</h1>
-    </button>
-    <button on:click={() => goto("/features")}>
+    </Button>
+    <Button onclick={() => goto("/features")} variant="ghost">
       <h1 class="text-lg">Features</h1>
-    </button>
-    <button on:click={() => goto("/about")}>
+    </Button>
+    <Button onclick={() => goto("/about")} variant="ghost">
       <h1 class="text-lg">About</h1>
-    </button>
+    </Button>
   </div>
 
   <div class="flex items-center gap-2">
