@@ -56,7 +56,7 @@
 
   <p class="text-lg">RhazesEMR features & capabilities</p>
 
-  <div class="flex flex-wrap justify-center mt-10 max-w-3xl">
+  <div class="flex flex-wrap justify-center mt-5 max-w-3xl">
     {#each features as feature}
       <Card.Root class="m-2">
         <Card.Content class="flex">

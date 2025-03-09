@@ -15,7 +15,7 @@
 
   <p class="text-lg">Download the latest version of RhazesEMR</p>
 
-  <div class="flex flex-wrap justify-center mt-10">
+  <div class="flex flex-wrap justify-center mt-5">
     <Card.Root class="w-[380px] m-2">
       <Card.Header>
         <Card.Title>Windows Installer</Card.Title>
