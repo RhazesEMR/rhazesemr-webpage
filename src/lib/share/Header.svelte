@@ -14,14 +14,19 @@
         <i class="fa-solid fa-flask"></i> RhazesEMR
       </h1>
     </button>
+    <button on:click={() => window.location.href = "https://docs.rhazesemr.info"}>
+      <h1 class="text-lg">
+        Docs
+      </h1>
+    </button>
     <button on:click={() => goto("/download")}>
       <h1 class="text-lg">
         Download
       </h1>
     </button>
-    <button on:click={() => window.location.href = "https://docs.rhazesemr.info"}>
+    <button on:click={() => goto("/features")}>
       <h1 class="text-lg">
-        Docs
+        Features
       </h1>
     </button>
   </div>
