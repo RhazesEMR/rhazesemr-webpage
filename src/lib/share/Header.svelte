@@ -16,10 +16,7 @@
         <i class="fa-solid fa-flask"></i> RhazesEMR
       </h1>
     </button>
-    <Button
-      onclick={() => (window.location.href = "https://docs.rhazesemr.info")}
-      variant="ghost"
-    >
+    <Button href="https://docs.rhazesemr.info" variant="ghost">
       <h1 class="text-lg">Docs</h1>
     </Button>
     <Button onclick={() => goto("/download")} variant="ghost">
