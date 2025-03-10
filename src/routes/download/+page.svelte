@@ -130,7 +130,7 @@
       </Card.Header>
       <Card.Content class="grid gap-4">
         <div class="flex justify-center pt-2 pb-2">
-          <i class="fa-brands fa-apple text-9xl"></i>
+          <i class="animate-pulse fa-brands fa-apple text-9xl"></i>
         </div>
         <button
           onclick={() =>
@@ -138,7 +138,7 @@
               description: "this release is still in need for further testing",
             })}
         >
-          <Button class="w-full" disabled>...</Button>
+          <Button class="w-full" disabled>Coming soon...</Button>
         </button>
       </Card.Content>
       <Card.Footer>
@@ -155,7 +155,7 @@
       </Card.Header>
       <Card.Content class="grid gap-4">
         <div class="flex justify-center pt-2 pb-2">
-          <i class="fa-brands fa-apple text-9xl"></i>
+          <i class="animate-pulse fa-brands fa-apple text-9xl"></i>
         </div>
         <button
           onclick={() =>
@@ -163,7 +163,7 @@
               description: "this release is still in need for further testing",
             })}
         >
-          <Button class="w-full" disabled>...</Button>
+          <Button class="w-full" disabled>Coming soon...</Button>
         </button>
       </Card.Content>
       <Card.Footer>
