@@ -31,12 +31,14 @@
   </div>
 
   <div class="flex items-center gap-2">
-    <a href="https://github.com/RhazesEMR">
-      <Button variant="outline" size="icon">
-        <Github />
-        <span class="sr-only">Github</span>
-      </Button>
-    </a>
+    <Button variant="outline" size="icon" href="https://bsky.app/profile/rhazesemr.bsky.social">
+      <i class="fa-brands fa-bluesky"></i>
+      <span class="sr-only">Bluesky</span>
+    </Button>
+    <Button variant="outline" size="icon" href="https://github.com/RhazesEMR">
+      <Github />
+      <span class="sr-only">Github</span>
+    </Button>
     <LdModeSwitch />
   </div>
 </header>
