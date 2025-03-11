@@ -47,14 +47,14 @@
   ];
 </script>
 
-<main class="flex flex-col items-center mt-28">
+<main class="flex flex-col items-center mt-64 md:mt-28">
   <div class="m-3 text-4xl flex items-center animate-bounce">
     <Sparkles size={52} />
     <p class="px-2">Features</p>
     <Sparkles size={52} />
   </div>
 
-  <p class="text-lg">RhazesEMR features & capabilities</p>
+  <p class="text-lg text-center">RhazesEMR features & capabilities</p>
 
   <div class="flex flex-wrap justify-center mt-5 max-w-3xl">
     {#each features as feature}

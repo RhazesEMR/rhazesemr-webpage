@@ -2,7 +2,7 @@
   import { Info } from "lucide-svelte";
 </script>
 
-<main class="flex flex-grow flex-col items-center mt-28">
+<main class="flex flex-grow flex-col items-center mt-64 md:mt-28">
   <div class="m-3 text-4xl flex items-center animate-bounce">
     <Info size={52} />
     <p class="px-2">About</p>

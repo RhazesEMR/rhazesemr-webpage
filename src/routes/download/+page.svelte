@@ -39,14 +39,14 @@
   let github_release = "https://github.com/RhazesEMR/rhazesemr-client/releases";
 </script>
 
-<main class="flex flex-grow flex-col items-center mt-28">
+<main class="flex flex-grow flex-col items-center mt-64 md:mt-28">
   <div class="m-3 text-4xl flex items-center animate-bounce">
     <Download size={52} />
     <p class="px-2">Download</p>
     <Download size={52} />
   </div>
 
-  <p class="text-lg">Download the latest version of RhazesEMR</p>
+  <p class="text-lg text-center">Download the latest version of RhazesEMR</p>
 
   <div class="flex flex-wrap justify-center mt-5">
     <Card.Root class="w-[380px] m-2">
