@@ -18,7 +18,7 @@
     <Button
       class="text-lg m-1 p-5"
       variant="secondary"
-      href="https://github.rhazesemr.info"
+      href="https://git.rhazesemr.info"
     >
       <span class="fa-solid fa-code-branch"></span>Source Code</Button
     >
