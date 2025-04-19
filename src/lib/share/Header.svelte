@@ -12,7 +12,7 @@
 >
   <div class="flex flex-col md:flex-row items-center mb-1 md:mb-0">
     <button on:click={() => goto("/#")}>
-      <h1 class="text-2xl font-bold mr-5">
+      <h1 class="text-2xl font-bold md:mr-5">
         <i class="fa-solid fa-flask"></i> RhazesEMR
       </h1>
     </button>
