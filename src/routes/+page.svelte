@@ -47,7 +47,7 @@
         <Button
           class="text-lg m-1 p-5"
           variant="secondary"
-          href="https://git.rhazesemr.info"
+          href="https://git.ch-naseem.com/RhazesEMR"
         >
           <span class="fa-solid fa-code-branch"></span>Source Code</Button
         >
