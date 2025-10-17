@@ -11,7 +11,7 @@
   class="fixed top-0 flex flex-col md:flex-row justify-between items-center p-3 w-full bg-background/85 backdrop-blur-xl border-b mb-32 z-50"
 >
   <div class="flex flex-col md:flex-row items-center mb-1 md:mb-0">
-    <button on:click={() => goto("/#")}>
+    <button on:click={() => goto("/")}>
       <h1 class="text-2xl font-bold md:mr-5">
         <i class="fa-solid fa-flask"></i> RhazesEMR
       </h1>
